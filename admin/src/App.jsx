@@ -7,11 +7,10 @@ import List from './Pages/List/List'
 import Orders from './Pages/Orders/Orders'
 import { ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Verify from '../../frontend/src/Pages/verify/verify'
 
 const App = () => {
 
-  const url = "http://localhost:4000"
+  const url = "https://food-eco-backend.onrender.com"
 
   return (
     <div className='app'>
