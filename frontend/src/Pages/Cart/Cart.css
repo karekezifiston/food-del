@@ -1,3 +1,52 @@
+.cartitems{
+    padding-top:5rem;
+    display: flex;
+    flex-direction: column;
+    margin-left:2rem;
+}
+.empty{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    align-items: center;
+    justify-content: center;
+    padding-top:7rem;
+    padding-bottom:10rem;
+}
+.empty h1{
+    font-size:2.5rem;
+}
+.empty button{
+    background:tomato;
+    color:white;
+    border:none;
+    font-size:1rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    padding-top:0.7rem;
+    padding-bottom:0.7rem;
+}
+.empty button:hover{
+    width:13vw;
+}
+.account{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+.link-to-login{
+  display: flex;
+  align-items: center;
+  gap:4px;
+}
+.link-to-login a{
+   /* text-decoration:none; */
+   color: #454545;
+}
+.link-to-login a:hover{
+    color: #454545b5;
+}
 .cart{
     margin-top:100px;
 }
