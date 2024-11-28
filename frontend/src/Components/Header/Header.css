@@ -1,9 +1,10 @@
 .header{
-    height:34vw;
+    height:30vw;
     margin:30px auto;
-    background:url('/header_img.png') no-repeat;
+    background:url('/header22.png') no-repeat;
     background-size:contain;
     position:relative;
+    border-radius:30px;
 }
 .header-contents{
     position:absolute;
@@ -19,6 +20,7 @@
 .header-contents h2{
   font-weight:500;
   color:white;
+  font-style: italic;
   font-size:max(4.5vw,22px);
 }
 .header-contents p{
@@ -37,10 +39,13 @@
 }
 @media(max-width:1050px){
     .header{
-        height:30vw;
+        height:34vw;
     }
     .header-contents{
         max-width:45%;
+    }
+    .header-contents button{
+        margin-bottom:1rem;
     }
 }
 @media(max-width:750px){
@@ -51,6 +56,13 @@
         display:none;
     }
     .header-contents button{
-        padding:2vw 4vw;
+        /* background-color:rgb(0, 0, 0); */
+        /* color:white; */
+        padding:0.7vw 1vw;
+        font-size:11px;
+        margin-bottom:1rem;
+    }
+    .header-contents button{
+        padding:-1vw vw;
     }
 }
