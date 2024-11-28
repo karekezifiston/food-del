@@ -37,7 +37,7 @@ a{
   border:5px solid #bdbdbd;
   border-top-color:tomato;
   border-radius:50%;
-  animation:rotate 1s;
+  animation:rotate;
 }
 @keyframes rotate{
   100%{
