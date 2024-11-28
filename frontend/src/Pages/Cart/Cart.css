@@ -40,9 +40,8 @@
   align-items: center;
   gap:4px;
 }
-.link-to-login a{
-   /* text-decoration:none; */
-   color: #454545;
+.link-to-login h4{
+ cursor: pointer;
 }
 .link-to-login a:hover{
     color: #454545b5;

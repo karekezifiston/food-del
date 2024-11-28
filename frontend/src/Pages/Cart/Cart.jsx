@@ -15,14 +15,7 @@ const Cart = () => {
       {isCartEmpty ? (
         <div className='empty'>
         <h1>Your Cart is Empty</h1>
-        <a href="./collection"><button>Find Your Own Puppy</button></a>
-        <div className='account'>
-          <h2>Have an account?</h2>
-          <div className='link-to-login'>
-            <a href="./login">Login</a>
-            <p> to check out faster.</p>
-          </div>
-        </div>
+        <a href="/"><button>Find Your Fav Meal</button></a>
       </div>
       ) : (
         <>
