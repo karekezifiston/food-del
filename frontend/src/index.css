@@ -27,7 +27,7 @@ a{
   }
 }
 .wait{
-  min-height:60vh;
+  min-height:90vh;
   display: grid;
 }
 .wait .rotate{
