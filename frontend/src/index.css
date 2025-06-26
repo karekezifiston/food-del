@@ -29,6 +29,8 @@ a{
 .wait{
   min-height:90vh;
   display: grid;
+  display:flex;
+  align:items-center;
 }
 .wait .rotate{
   width:100px;
