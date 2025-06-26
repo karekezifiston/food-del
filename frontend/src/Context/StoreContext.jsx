@@ -80,6 +80,7 @@ const StoreContextProvider = (props) => {
         return (
             <div className='wait'>
             <div className='rotate'></div>
+                <p>Free server life 😅 please give it a second to get ready!</p>
         </div>
         );
     }
