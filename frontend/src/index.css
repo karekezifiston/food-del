@@ -38,8 +38,8 @@ a{
 }
 
 .wait .rotate {
-  width: 100px;
-  height: 100px;
+  width:50px;
+  height:50px;
   border: 5px solid #bdbdbd;
   border-top-color: tomato;
   border-radius: 50%;
