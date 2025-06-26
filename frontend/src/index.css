@@ -36,6 +36,8 @@ a{
   text-align: center;
   padding: 20px;
 }
+.wait p{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
 .wait .rotate {
   width:50px;
